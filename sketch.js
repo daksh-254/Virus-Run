@@ -54,7 +54,7 @@ function setup(){
    createCanvas(800, 650); 
  //PC   
  //playerSprite
-   player = createSprite(300, 300, 30, 30);//705, 625
+   player = createSprite(705, 625, 30, 30);
    player.addImage("STAT",staticmage);
    player.addAnimation("LEFT", PCLeftimg);
    player.addAnimation("RIGHT", PCRightimg); 
